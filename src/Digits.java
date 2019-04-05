@@ -10,7 +10,7 @@ public class Digits
     //represents num
     public Digits (int num)
     {
-       digitList = new Array<Integer>();
+       digitList = new ArrayList<Integer>();
         if (num ==0)
         {
             digitList.add(new Integer(0));
