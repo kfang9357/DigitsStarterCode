@@ -10,7 +10,15 @@ public class Digits
     //represents num
     public Digits (int num)
     {
-        //implemented in part (a)
+       digitList = new Array<Integer>();
+        if (num ==0)
+        {
+            digitList.add(new Integer(0));
+        }
+        while (num>0)
+        {
+            digitList.add(0. new Integer(num%10));
+        }
     }
     public boolean isStrictlyIncreasing()
     {
