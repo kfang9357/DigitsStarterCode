@@ -17,7 +17,7 @@ public class Digits
         }
         while (num>0)
         {
-            digitList.add(0. new Integer(num%10));
+            digitList.add(0, new Integer(num%10));
         }
     }
     public boolean isStrictlyIncreasing()
